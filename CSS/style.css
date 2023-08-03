@@ -1,0 +1,81 @@
+/* common css */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Open+Sans:wght@400;800&family=Ubuntu:wght@300;400;500&display=swap');
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1170px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+/* common css ends */
+/* header  */
+header {
+  background-color: #0f2f44;
+  color: white;
+  padding: 17px 0;
+  text-align: center;
+  font-weight: 400;
+}
+
+header .opening {
+  width: 60%;
+  text-align: right;
+}
+header .wellcome {
+  width: 32%;
+}
+/* header ends */
+/* nav  */
+nav .menu {
+  width: 70%;
+}
+nav .logo {
+  width: 30%;
+  padding: 30px 0;
+}
+.menu ul li {
+  display: inline-block;
+  padding: 0 19px;
+}
+.menu ul li a {
+  color: #222222;
+  font-weight: 500;
+  transition: 0.3s;
+  padding: 40px 6px;
+  display: inline-block;
+  font-size: 16px;
+}
+.menu ul li:hover a {
+  color: #ffc712;
+  background-color: #fff9e6;
+}
+/* nav ends */
+button {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+}
+nav .menu .submenu {
+  position: absolute;
+}
+nav .menu .submenu li {
+  display: block;
+}
